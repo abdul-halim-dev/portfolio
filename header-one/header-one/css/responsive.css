@@ -1,0 +1,473 @@
+/* ================
+==============Hero section responsive start ========== */
+
+@media screen and (max-width:1148px){
+    .hero-multify{
+        display: flex;
+        gap: 1rem;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .w-50{
+        width: 100%;
+        height: auto;
+    }
+    .hero-divided{
+         
+        gap: 4rem;
+    }
+
+    @media screen and (max-width:724px){
+        .hero-section{
+            padding:10px;
+        }
+        .main-padding{
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 80px;
+            }
+            .hero-divided{
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+            }
+
+
+        }
+
+        @media screen and (max-width:574px){
+            .hero-divided .bottom-info-tag{
+                
+                gap: 1rem;
+                flex-direction: column;
+
+            }
+            /* .hero-divided, .developer-section{
+                align-items: center;
+                justify-content: center;
+            } */
+            .main-padding{
+                 
+                padding-top: 50px;
+                }
+                .picture-last .image-panel {
+                    
+                    height: 400px;
+                    
+                }
+
+
+        }
+}
+
+/* ================
+==============Hero section responsive end ========== */
+
+/*=================
+============ About us section responsive start =========== */
+@media screen and (max-width:1221px){
+    .address{
+        display: flex;
+        gap:3rem;
+    }
+}
+
+@media screen and (max-width:1133px){
+    .about-us .half-divided{
+        flex-direction: column;
+    }
+
+
+    .whalf{
+        width: 100%;
+         
+    }
+    .half{
+        width: 100%;
+    }
+}
+@media screen and (max-width:701px){
+    .address{
+        display: flex;
+        gap:3rem;
+        flex-direction: column;
+    }
+
+    .about-us{
+        padding:10px;
+    }
+}
+
+
+@media screen and (max-width:977px){
+    .main-medel .sub-main-medel{
+        width: 28%;
+        height: 130px;
+        
+      }
+    
+
+}
+@media screen and (max-width:503px){
+    .main-medel .sub-main-medel{
+        width: 100%;
+       
+        
+      }
+    
+
+}
+
+
+/*=================
+============ About us section responsive end =========== */
+/* =================
+========= experience-section start ========= */
+@media screen and (max-width:1101px){
+    .experience-section{
+        display: flex;
+        gap: 2rem;
+         flex-direction: column;
+    }
+    .experience{
+        width: 100%;
+      
+    }
+}
+
+@media screen and (max-width:661px){
+
+    .experience-section{
+       margin: -10px;
+    }
+
+    .sub-experience-card{
+        height: auto;
+       
+        padding: 10px 10px 10px 66px;
+    }
+}
+@media screen and (max-width:405px){
+
+    .sub-experience-card::after{
+      margin-left: 25px;
+    
+    }
+    .sub-experience-card{
+        height: auto;
+       
+        padding: 10px 10px 10px 46px;
+    }
+    .sub-experience-card h4{
+        font-size: 16px;
+    }
+}
+ 
+/* =================
+========= experience-section end ========= */
+
+
+/*========================
+========== Service section start =========== */
+
+
+@media screen and (max-width:1097px){
+
+    .service-section .service-main-card{
+        flex-direction: column;
+       display: flex;
+    }
+    .service-section .service-main-card .sub-main-card{
+         
+        width: 100%;
+        height: auto;
+         
+        /* transition: all 0.7s ease; */
+    }
+    .service-section
+{
+  margin-top: 60px;
+  
+  padding: 20px 0px;
+}
+
+
+}
+
+/*========================
+========== Service section end =========== */
+
+/* My client section responsive start  */
+@media screen and (max-width:590px){
+    .main-review{
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 85px;
+        padding-bottom: 35px;
+        padding-left: 10px;
+        
+        
+        gap: 1rem;
+        
+      margin-left: 0px;
+    }
+
+
+
+    .main-review .client-image {
+        width: 80px;
+        height: 80px;
+        
+        top: 0%;
+        left: 0px;
+    }
+    
+
+    .main-review .client-name {
+         
+        gap: 1rem;
+    }
+    .main-review > span {
+       display: none;
+    }
+
+    .client-section {
+        
+        margin-top: 40px;
+    }
+}
+
+
+
+/* My client section responsive start  */
+
+
+
+/*=============
+========== My Works section responsive start=== */
+
+@media screen and (max-width:1095px){
+    .main-my-work-card{
+        width: 48%;
+        height: auto;
+        
+      }
+      .my-work-card{
+        gap: 2rem;
+    }
+
+    @media screen and (max-width:983px){
+        .my-work-section{
+            padding: 10px;
+         }
+
+    }
+    @media screen and (max-width:919px){
+        .main-my-work-card{
+            width: 100%;
+           
+            
+          }
+          .my-work-card{
+            gap: 2rem;
+        }
+
+        .my-work-section{
+            padding: 0px;
+         }
+    }
+    .main-my-work-card{
+        margin-bottom: 20px;
+        
+      }
+
+}
+/*=============
+========== My Works section responsive end=== */
+
+/* my blog section responsive start  */
+
+@media screen and (max-width:1124px){
+
+    .blog-card{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+ .blog-card .main-blog-card{
+        width: 47%;
+      
+    }
+    .blog-section{
+
+        padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 80px;
+     
+    }
+
+    .blog-section
+{
+    margin: 0;
+}
+
+}
+
+
+
+
+@media screen and (max-width:722px){
+    .blog-card{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    
+    .blog-card .main-blog-card{
+        width: 100%;
+      
+    }
+    .blog-section{
+
+        padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+     
+    }
+
+    .blog-section .horiz{
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        border: 1px solid #a4a3a3;
+    margin-top: 70px;
+    
+    }
+}
+
+@media screen and (max-width:410px){
+
+    .blog-bottom{
+      
+        padding-left: 18px;
+        padding-right: 18px;
+        font-size: 12px;
+         
+    }
+
+
+    .sub-card-box .blog-sub-heading a h4{
+      
+        font-size: 22px;
+        font-weight: 300px;
+    }
+    .sub-card-box .blog-date span{
+    padding: 4px 8px;
+        letter-spacing: 0px;
+        }
+     
+        .sub-card-box{
+         padding: 25px;
+       
+        }
+}
+/* my blog section responsive end  */
+
+
+
+
+/* contact us section responsive    */
+@media screen and (max-width:1036px) {
+    .two-part{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .hh-50{
+        width: 100%;
+         
+        }
+}
+
+.contact-us-section{
+  margin:0;
+    
+}
+
+
+
+@media screen and (max-width:492px){
+    .contact-us-section{
+       
+        margin-bottom: 62px;
+    }
+    .hh-50 .all-socia{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.divided .last-email{
+    display: flex;
+    flex-direction: column;
+
+}
+.divided .last-email input[type="text"], input[type="email"]{
+    width: 100%;
+    }
+
+    .divided .cricle .omit{
+        font-size: 12px;
+    }
+
+    .divided  textarea{
+    height: 110px;
+   
+      }
+
+
+
+
+
+      .hh-50 span{
+        padding: 4px 8px;
+        
+        height: 33px ;
+        width: 115px;
+    font-size: 12px;
+    }
+    .hh-50 h1{
+        font-size: 38px;
+     }
+    
+    .hh-50 p{
+    font-size: 14px;
+    }
+    
+    .hh-50> a{
+        font-size: 24px;
+        font-weight: 400;
+    }
+.last-onee{
+    width: 85%;
+    height: 50px;
+    display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+}
+
+}
+/* contact us section responsive    */
+
+
+@media screen and (max-width:717px){
+    .contact-us-section {
+        width: 100%;
+        margin: 0px !important;
+    }
+    .blog-section {
+        width: 100%;
+         
+    }
+
+}
